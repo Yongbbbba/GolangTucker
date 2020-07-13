@@ -37,3 +37,7 @@
 - radix sort
 - 피보나치 수열 
 - 숫자 야구 만들기
+- slice, instance(OOP)
+- Linked List
+- Double Liked List
+- Thread, Process, Program, lock
