@@ -40,6 +40,7 @@
 - slice, instance(OOP)
 - Linked List
 - Double Liked List
-- packaging, stack, queue
+- Stack, Queue
 - dataStruct 패키지 만들기
+- Tree
 - Thread, Process, Program, lock
