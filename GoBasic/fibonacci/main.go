@@ -17,9 +17,9 @@ func main() {
 	runTime := time.Since(startTime)
 	fmt.Printf("재귀호출을 이용한 피보나치 수열 알고리즘 결과는 %d입니다\n", result)
 	fmt.Printf("실행시간은 %s입니다\n", runTime)
-	startTime := time.Now()
-	result := Fibonacci2(50)
-	runTime := time.Since(startTime)
+	startTime = time.Now()
+	result = Fibonacci2(50)
+	runTime = time.Since(startTime)
 	fmt.Printf("반복문을 이용한 피보나치 수열 알고리즘 결과는 %d입니다\n", result)
 	fmt.Printf("실행시간은 %s입니다\n", runTime)
 }
