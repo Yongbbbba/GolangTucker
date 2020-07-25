@@ -1,5 +1,3 @@
-// stack, queue  만들기
-
 package main
 
 import (
@@ -9,23 +7,20 @@ import (
 )
 
 func main() {
-	tree := dataStruct.NewBinaryTree(5)
-	tree.Root.AddNode(3)
-	tree.Root.AddNode(2)
-	tree.Root.AddNode(4)
-	tree.Root.AddNode(8)
-	tree.Root.AddNode(7)
-	tree.Root.AddNode(6)
-	tree.Root.AddNode(10)
-	tree.Root.AddNode(9)
 
-	tree.Print()
-	fmt.Println()
+	h := &dataStruct.Heap{}
 
-	if found, cnt := tree.Search(11); found {
-		fmt.Println("found 11 cnt: ", cnt)
-	} else {
-		fmt.Println("not found 11 cnt: ", cnt)
-	}
+	h.Push(2)
+	h.Push(6)
+	h.Push(9)
+	h.Push(6)
+	h.Push(7)
+	h.Push(8)
+
+	h.Print()
+
+	fmt.Println(h.Pop())
+	fmt.Println(h.Pop())
+	fmt.Println(h.Pop())
 
 }
