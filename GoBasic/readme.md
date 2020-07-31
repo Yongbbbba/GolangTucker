@@ -48,3 +48,4 @@
 - Heap
 - Map, Hash
 - Thread, Process, Program, lock
+- Goroutine, channel, select(이해도가 떨어짐)
