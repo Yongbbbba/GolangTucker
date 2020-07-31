@@ -8,19 +8,20 @@ import (
 
 func main() {
 
-	h := &dataStruct.Heap{}
+	fmt.Println("abcde = ", dataStruct.Hash("abcde"))
+	fmt.Println("abcdf = ", dataStruct.Hash("abcdf"))
+	fmt.Println("tbcde = ", dataStruct.Hash("tbcde"))
+	fmt.Println("zbcde = ", dataStruct.Hash("zbcde"))
 
-	h.Push(2)
-	h.Push(6)
-	h.Push(9)
-	h.Push(6)
-	h.Push(7)
-	h.Push(8)
+	m := dataStruct.CreateMap()
+	m.Add("AAA", "01077777777")
+	m.Add("BBB", "01088888888")
+	m.Add("CDEAFDGEAGFD", "011111111")
+	m.Add("CCC", "0102329023")
 
-	h.Print()
-
-	fmt.Println(h.Pop())
-	fmt.Println(h.Pop())
-	fmt.Println(h.Pop())
+	fmt.Println("AAA = ", m.Get("AAA"))
+	fmt.Println("CCC = ", m.Get("CCC"))
+	fmt.Println("CDEAFDGEAGFD = ", m.Get("CDEAFDGEAGFD"))
+	fmt.Println("DDD = ", m.Get("DDD"))
 
 }

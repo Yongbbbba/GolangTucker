@@ -34,13 +34,17 @@
  ` *`  
   
 - 배열 정렬
-- radix sort
+- Radix Sort
 - 피보나치 수열 
 - 숫자 야구 만들기
 - slice, instance(OOP)
 - Linked List
 - Double Liked List
 - Stack, Queue
+- Queue Sort
 - dataStruct 패키지 만들기
 - Tree
+- DFS, BFS, BST
+- Heap
+- Map, Hash
 - Thread, Process, Program, lock
