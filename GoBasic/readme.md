@@ -49,3 +49,8 @@
 - Map, Hash
 - Thread, Process, Program, lock
 - Goroutine, channel, select(이해도가 떨어짐)
+- OOP, Interface
+- Object 중심의 설계, OOD의 다섯가지 법칙 : SOLID, 달성하는 목표가 아닌 지향해야하는 목표
+
+
+좋은 프로그래밍은 종속성(depency)을 낮추고 응집성(cohesive)을 높이는 것!
